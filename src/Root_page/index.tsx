@@ -1,10 +1,8 @@
-
+import rp from "./style.module.scss"
 
 function Root_page() {
     return (
-        <div>
-            <h1>root</h1>
-            <p>lorem</p>
+        <div className={rp.root_page}>
         </div>
     )
 }
